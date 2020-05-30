@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: maroon;
+    font-weight: bolder;
+    display: block;
+    margin: 1em;
+}
