@@ -1,33 +1,28 @@
 body{
     background-color: #e2e4e5;
+    text-align: center;
 }
 .header{
-    font-family: 'Lato', sans-serif;
-    text-shadow:0 0 4px #9b0800;
-    font-size: 29px;
-    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow:0 0 4px red;
+    font-size: 3em;
     background-color: #eceff1;
-    width: 100%;
     text-align: center;
-    height: 80px;
-    margin-top: 1em;
+    margin:10px;
 }
-.country{
-    margin-top: 7px;
-}
-.pakistan,.portugal,.srilanka,.turkey,.germany,.spain{
-    float: left;
-    margin-left: 7em;
-    margin-top: 3em;
-    text-align: center;
-}
-.p1{
-    font-family: 'Cookie', cursive;
+figcaption{
+    font-family: 'Satisfy', cursive;
     font-size: 30px;
     margin-top: 0px;
+    text-align: center;
 }
-.pakistan:hover,.portugal:hover,.srilanka:hover,.turkey:hover,.germany:hover,.spain:hover{
-    background-color: #eceff1;
-    color: #ed4630;
+figure{
+    display: inline-block;
+    padding: 1em;
+    border-radius: 5px;
     cursor: pointer;
+}
+figure:hover{
+    background-color:#eceff1 ;
+    color: red;
 }
